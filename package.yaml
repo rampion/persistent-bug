@@ -1,0 +1,13 @@
+name: persistent-bug
+version: 0.0.0
+
+dependencies:
+  - base == 4.*
+  - mtl
+  - persistent
+  - persistent-template
+  - persistent-sqlite
+  - text
+executables:
+  persistent-bug:
+    main: Main.hs
